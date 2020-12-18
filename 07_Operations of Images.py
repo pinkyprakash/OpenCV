@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('Sana.JPG')
+img = cv2.imread('lena.jpg')
 img = cv2.resize(img,(512,512))
 
 print(img.shape)

@@ -32,7 +32,7 @@ while(cap.isOpened()):
 
         frame = cv2.putText(frame,text,(10,50),font,1,(0,255,255),2,cv2.LINE_AA)
         frame = cv2.putText(frame, datet, (10, 100), font, 1,(0, 255, 255), 2, cv2.LINE_AA)
-        frame = cv2.putText(frame, 'Sana and JP', (10, 150), font, 1,(0, 255, 255), 2, cv2.LINE_AA)
+        frame = cv2.putText(frame, 'Sample', (10, 150), font, 1,(0, 255, 255), 2, cv2.LINE_AA)
 
         cv2.imshow('frame', frame)
         if cv2.waitKey(1) == ord('q'):

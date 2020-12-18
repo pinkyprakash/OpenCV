@@ -22,7 +22,7 @@ def click_event(event,x,y,flag,param):
         mycolorImg[:] = [blue,green,red]
         cv2.imshow('color', mycolorImg)
 
-img = cv2.imread('Sana.JPG',1)
+img = cv2.imread('lena.JPG',1)
 img = cv2.resize(img,(512,512))
 #img = np.zeros((512,512,3), np.uint8)
 cv2.imshow('image',img)

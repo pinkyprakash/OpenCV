@@ -20,7 +20,7 @@ def click_event(event,x,y,flag,param):
         cv2.putText(img, strBGR, (x, y), font, 1, (0, 0, 255), 2)
         cv2.imshow('image', img)
 
-img = cv2.imread('Sana.JPG',1)
+img = cv2.imread('lena.JPG',1)
 img = cv2.resize(img,(512,512))
 #img = np.zeros((512,512,3), np.uint8)
 img = cv2.rectangle(img,(87,24), (430,380),(0,255,0),5)
